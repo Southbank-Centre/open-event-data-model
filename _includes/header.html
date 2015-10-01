@@ -17,12 +17,12 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li {% if '/' == page.url %}class="active"{% endif %}><a href="/">Home</a></li>
-                <li {% if '/schema/' == page.url %}class="active"{% endif %} ><a href="/schema">Schema</a></li>
-                <li {% if '/apps/' == page.url %}class="active"{% endif %} ><a href="/apps">Applications</a></li>
-                <li {% if '/docs/' == page.url %}class="active"{% endif %} ><a href="/docs">Documentation</a></li>
-                <li {% if '/news/index.html' == page.url %}class="active"{% endif %} ><a href="/news">News</a></li>
-                <li {% if '/about/' == page.url %}class="active"{% endif %} ><a href="/about">About</a></li>
+                <li {% if '/' == page.url %}class="active"{% endif %}><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
+                <li {% if '/schema/' == page.url %}class="active"{% endif %} ><a href="{{ '/schema' | prepend: site.baseurl }}">Schema</a></li>
+                <li {% if '/apps/' == page.url %}class="active"{% endif %} ><a href="{{ '/apps' | prepend: site.baseurl }}">Applications</a></li>
+                <li {% if '/docs/' == page.url %}class="active"{% endif %} ><a href="{{ '/docs' | prepend: site.baseurl }}">Documentation</a></li>
+                <li {% if '/news/index.html' == page.url %}class="active"{% endif %} ><a href="{{ '/news' | prepend: site.baseurl }}">News</a></li>
+                <li {% if '/about/' == page.url %}class="active"{% endif %} ><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
             </ul>
 
         </div><!--/.nav-collapse -->
