@@ -1,0 +1,35 @@
+---
+layout: page
+title: Home
+permalink: /
+url: /
+
+breadcrumb: Home
+---
+
+<div class="row">
+  <div class=" col-md-12">
+      <h2>What is the Open Event Data Model?</h2>
+    <p>The Open Event Data Model (OEDM) is an open source standard for sharing cultural event data between systems and users. The OEDM provides a flexible model for describing the various entities associated with events, including the people, places and things associated with the event. <a href="/schema/">Read more about the OEDM</p>a>.</p>
+      <p>In addition to publishing the model on these pages, we are also encouraging the development of a range of tools that are built around the OEDM. <a href="/apps">Find out about other projects related to OEDM</a>.</p>
+  </div>
+  <div class=" col-md-12">
+      <h2>News and updates</h2>
+      <ul class="post-list">
+          {% for post in site.posts limit:3 %}
+          <li>
+              <h3>
+                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </h3>
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <p>{{ post.excerpt }}</p>
+          </li>
+          {% endfor %}
+      </ul>
+  </div>
+    <div class="col-md-12">
+        <h2>How to get involved</h2>
+        <p>The OEDM is maintained by the community of users, including the Southbank Centre, the Barbican Centre, and Culture Kent.  If you are interested in getting involved or contributing, contact us on info [at] oedm [dot] org.</p>
+    </div>
+
+</div>

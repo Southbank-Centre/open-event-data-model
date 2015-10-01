@@ -1,0 +1,55 @@
+---
+layout: default
+title: News
+url: /news/
+breadcrumb: News
+---
+<div class="container">
+
+    <div class="col-md-12">
+        <h1 class="page-heading">Posts</h1>
+
+        <ul class="post-list">
+            {% for post in paginator.posts %}
+            <li>
+                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                <h2>
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                </h2>
+            </li>
+            {% endfor %}
+        </ul>
+        {% if paginator.total_pages > 1 %}
+        <ul class="pagination">
+            {% if paginator.previous_page %}
+                <li>
+                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+            {% endif %}
+            {% for page in (1..paginator.total_pages) %}
+                {% if page == paginator.page %}
+                    <li><a href="#"><em>{{ page }}</em></a></li>
+                {% elsif page == 1 %}
+                    <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><em>{{ page }}</em></a></li>
+                {% else %}
+                    <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+                {% endif %}
+            {% endfor %}
+
+
+            {% if paginator.next_page %}
+                <li>
+                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" aria-label="Previous">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+        {% endif %}
+
+        <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    </div>
+</div>

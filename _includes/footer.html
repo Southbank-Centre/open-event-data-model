@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <p class="terms-conditions">
+                <a href="/terms/">Terms & Conditions</a> - <a href="/styles/">Styles</a>
+            </p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer panel-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <a href="http://www.southbankcentre.co.uk/"><img class="logo-sb footer-image" src="/images/logo-southbank.jpg" /></a>
+                <p class="text-footer">SOUTHBANK CENTRE<br>
+                    Belvedere Road,<br>
+                    London<br>
+                    SE1 8XX<br>
+                    United Kingdom</p>
+            </div>
+            <div class="col-md-4">
+                <a href="http://www.barbican.org.uk/"><img class="logo-barbican footer-image" src="/images/barbican-logo.gif" /></a>
+                <p class="text-footer">BARBICAN CENTRE<br>
+                    Silk Street ,<br>
+                    London<br>
+                    EC2Y 8DS<br>
+                    United Kingdom </p>
+            </div>
+            <div class="col-md-4">
+                <ul class="ul-footer">
+                    {% for post in site.posts limit:3 %}
+                    <li>
+                        <h4>
+                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                        </h4>
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-footer">
+                    <strong>Build:</strong> {% project_version %}<br />
+                    <strong>Last updated:</strong> {{ site.time }}
+                </p>
+            </div>
+        </div>
+    </div>
+
+</footer>
+<script type="text/javascript" src="{{ "/js/jquery.min.js" | prepend: site.baseurl }}"></script>
+<script type="text/javascript" src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<script>
+    $(document).ready(function(){
+        var table = $('div.container div.main div.row div.col-md-12 table');
+        table.addClass('table');
+	var table_body = $('div.container div.main div.row div.col-md-12 tbody');
+        table_body.addClass('table-striped');
+    });
+</script>
