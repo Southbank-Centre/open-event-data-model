@@ -31,7 +31,6 @@ The following features and capabilities are included in this site:
 - Lean navigation, optimized for mobile devices: single level main menu and breadcrumbs
 - Dedicated layouts per content type: entity, news, page and post
 - Content pages in dedicated folder (plugin)
-- Git version tag (plugin) to identify precisely the code served online
 - Dedicated Terms and Conditions page
 - Dedicated styling helper page (it is recommended to disable this one on production)
 - Navigation menu fixed to the top of the browser window and collapsed to a hamburger icon in small devices
@@ -130,7 +129,7 @@ There was no data in the [OEDM Site content document][gdoc] regarding this secti
 - Location: `/_includes/footer.html`
 - Website path: -
 
-The footer has two rows of data, the first one with three columns containing the details of Southbank Centre and Barbican, and the three latest news headlines. The second row has a *Version* and *Last updated* tags, to identify the exact version of the site published online. All the blocks stack gracefully in responsive mode.
+The footer has two rows of data, the first one with three columns containing the details of Southbank Centre and Barbican, and the three latest news headlines. The second row has a *Last updated* tag, to identify the exact version of the site published online. All the blocks stack gracefully in responsive mode.
 
 The images included for the contact details logos are stored in `images` folder and should be replaced with ones with a transparent background.
 
