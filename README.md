@@ -10,8 +10,6 @@ In order to maximize content separation from system diles the content has been a
     - _entities (content: schema entities pages)
     - _includes (system folder)
     - _layouts (system folder)
-    - _pages (content: standard pages)
-    - _plugins (system folder)
     - _posts (content: blog posts)
     - css (system folder)
     - fonts (system folder)
@@ -30,7 +28,6 @@ The following features and capabilities are included in this site:
 - Responsive theme based on Bootstrap
 - Lean navigation, optimized for mobile devices: single level main menu and breadcrumbs
 - Dedicated layouts per content type: entity, news, page and post
-- Content pages in dedicated folder (plugin)
 - Dedicated Terms and Conditions page
 - Dedicated styling helper page (it is recommended to disable this one on production)
 - Navigation menu fixed to the top of the browser window and collapsed to a hamburger icon in small devices
