@@ -12,7 +12,7 @@ The schemas are a set of 'types', each associated with a set of properties.
 
 <ul>
 {% for entity in site.entities %}
-      <li><a href="{{ entity.url }}">{{ entity.title }}</a></li>
+      <li><a href="{{ site.baseurl }}{{ entity.url }}">{{ entity.title }}</a></li>
 {% endfor %}
 </ul>
 
@@ -28,4 +28,4 @@ The OEDM was developed around a core set of design principles. These are recomme
 
 This is the conceptual model for the OEDM. Each entity has its own page describing it and the core attributes.
 
-<img class="img-concep" src="/images/OEDM-conceptual-entity-model.jpeg"/>
+<img class="img-concept" src="{{ site.baseurl }}/images/OEDM-conceptual-entity-model.jpeg"/>

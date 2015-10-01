@@ -15,7 +15,7 @@ Here is some of the documentation available on this site:
  - Getting Started: A simple introduction to OEDM and how to use it for marking up your site.
  - Releases: Full history of recent releases.
  - Frequently asked questions
- - [OEDM Blog](/news/)
+ - [OEDM Blog]({{ site.baseurl }}/news/)
  - Feedback form: Please give us feedback, report bugs, etc.
- - [Terms & Conditions](/docs/terms/)
- - [Styles](/docs/styles/)
+ - [Terms & Conditions]({{ site.baseurl }}/docs/terms/)
+ - [Styles]({{ site.baseurl }}/docs/styles/)
