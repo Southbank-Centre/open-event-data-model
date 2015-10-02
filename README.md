@@ -4,7 +4,7 @@ This repository contains the Open Event Data Model website. It is a Jekyll power
 
 ## Structure ##
 
-In order to maximize content separation from system diles the content has been arranges as follows:
+In order to maximize content separation from system files the content has been arranged as follows:
 
 - root
     - _entities (content: schema entities pages)
@@ -63,7 +63,7 @@ All entity JSON examples are dummy placeholder content, copied from the *Event* 
 - Location: `/_pages/applications.md`
 - Website path: /apps/
 
-Originally the [documentation][gdoc] and the [wireframes][wire] provided required multipl pages for the *Projects* section. As there is very little information at this point of time it was chosen to leave all the existing applications of the OEDM in a single page. Until more applications are added this is a conveninent way  to keep the site simple.
+Originally the [documentation][gdoc] and the [wireframes][wire] provided required multiple pages for the *Projects* section. As there is very little information at this point of time it was chosen to leave all the existing applications of the OEDM in a single page. Until more applications are added this is a convenient way  to keep the site simple.
 
 All content provided in this page is dummy and must be updated.
 
