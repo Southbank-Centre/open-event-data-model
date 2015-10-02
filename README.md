@@ -101,7 +101,7 @@ It is recommended to remove the page from the production site.
 - Location: `/news/index.html`
 - Website path: /news/
 
-This is the blog feature of the website. It has been renamed *News* as it will be sued to add updates to the site.
+This is the blog feature of the website. It has been renamed *News* as it will be used to add updates to the site.
 It includes a pagination widget. The posts displayed in each of the pages include the title, the date and the content extract.
 
 All posts included are dummy. Multiple posts were added to demonstrate the pagination behaviour.
