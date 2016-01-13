@@ -9,7 +9,7 @@ breadcrumb: About
 
 ## Organisations and their members
 
-About the organisations involved and their members.
+Southbank Centre and Barbican.
 
 ## History
 
