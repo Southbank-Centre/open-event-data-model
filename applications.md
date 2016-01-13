@@ -18,7 +18,7 @@ This is a working group founded by the Southbank Centre and the Barbican Centre 
 
 
 ##Open Event CMS
-Open Event is a foundation for any cultural organisation who would like to manage and publish their events on-line. It models the events into an Open Event Data Model and automatically publishes them via a JSON API.
+Open Event is a starting point for any cultural organisation that would like to manage and publish its events online. It models the events into an Open Event Data Model and automatically publishes them via a JSON API.
 
 ###Get involved
  - [Website](https://www.drupal.org/project/openevent)
