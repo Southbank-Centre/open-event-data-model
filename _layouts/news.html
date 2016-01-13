@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+{% comment %}
 <ol class="breadcrumb">
   <li><a href="{{ site.baseurl }}/">Home</a></li>
   {% capture page_url_without_index_html %}{{ page.url | remove: "/index.html" }}{% endcapture %}
@@ -21,6 +23,7 @@ layout: default
     {% endfor %}
   {% endfor %}
 </ol>
+{% endcomment %}
 
 <div class="row">
 

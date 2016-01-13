@@ -1,55 +1,115 @@
+.navbar {
+    color: #555555;
+    background-color: #e7e7e7;
+    border-width: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #333333;
+    background-color: #f0f0f0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
+    background-color: #FF391C;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #999999;
+}
+
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff;
+    background-color: #999999;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #333333;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #f0f0f0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-width: 0;
+}
+
+.panel-footer {
+    margin: 20px 0 0 0;
+    padding: 0 0 83px 0;
+    background-color: #e7e7e7;
+    border-top: 1px solid #dddddd;
+    border-bottom-right-radius: -1;
+    border-bottom-left-radius: -1;
+}
+
+body {
+    font-size: 13pt;
+}
+
+
 .footer-image {
     height: 60px;
-    padding-left: 29px;
-}
-.main{
-    padding: 0px 0px 33px 19px;
 }
 
- .ul-footer{
+.logo-southbankcentre {
+    height: 50px;
+    margin-top: 10px;
+}
 
+.main {
+    padding: 0px 15px 33px 15px;
+}
+
+.ul-footer {
     padding-left: 26px;
     list-style: none;
-     line-height: 0px;
+    line-height: 0px;
+}
 
- }
+/*ul{*/
+ /*list-style: none;*/
+/*}*/
 
- /*ul{*/
-     /*list-style: none;*/
- /*}*/
+.terms-footer{
+ color: #999999;
+ clear: right;
+ padding-left: 12px;
+ padding-top: 36px;
+}
+.text-footer{
+ color: #999999;
+ padding-top: 10px;
+ padding-bottom: 16px;
+}
+.text-muted{
+ padding-bottom: 16px;
+}
 
- .terms-footer{
-     color: #999999;
-     clear: right;
-     padding-left: 12px;
-     padding-top: 36px;
- }
- .text-footer{
-     color: #999999;
-     padding-top: 10px;
-     padding-bottom: 16px;
-     padding-left: 29px;
- }
- .text-muted{
-     padding-bottom: 16px;
- }
+.container {
+    padding: 0 15px 0 15px;
+}
+
 div.header div.container div.main div.row div.col-md-12 table{
 
 }
-.text-principles{
+
+.text-principles {
     padding-left: 35px;
     line-height: 26px;
 }
-.img-concep{
+.img-concept {
     width: 80%;
 }
 
 .breadcrumb {
-    margin-top: 60px;
+    display: inline-block;
+    margin: 60px -15px 0 -15px;
 }
 
 .page-header {
-    margin-top: 20px;
+    margin-top: 90px;
 }
 
 .terms-conditions {

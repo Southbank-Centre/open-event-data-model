@@ -20,8 +20,7 @@
                 <li {% if '/' == page.url %}class="active"{% endif %}><a href="{{ '/' | prepend: site.baseurl }}">Home</a></li>
                 <li {% if '/schema/' == page.url %}class="active"{% endif %} ><a href="{{ '/schema' | prepend: site.baseurl }}">Schema</a></li>
                 <li {% if '/apps/' == page.url %}class="active"{% endif %} ><a href="{{ '/apps' | prepend: site.baseurl }}">Applications</a></li>
-                <li {% if '/docs/' == page.url %}class="active"{% endif %} ><a href="{{ '/docs' | prepend: site.baseurl }}">Documentation</a></li>
-                <li {% if '/news/index.html' == page.url %}class="active"{% endif %} ><a href="{{ '/news' | prepend: site.baseurl }}">News</a></li>
+                <li {% if '/news/' == page.url %}class="active"{% endif %} ><a href="{{ '/news' | prepend: site.baseurl }}">News</a></li>
                 <li {% if '/about/' == page.url %}class="active"{% endif %} ><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
             </ul>
 

@@ -13,13 +13,9 @@ If you have a project or application that is related to the OEDM or is built aro
 
 This is a working group founded by the Southbank Centre and the Barbican Centre designed to develop a controlled vocabulary for performing art forms and genres that can be applied to Event and Work entities in the OEDM.
 
-###Contact
-Andrew Hayes
-
 ###Get involved
- - Website
- - GitHub
- - Email
+- Email <a href="mailto:andrew.hayes@southbankcentre.co.uk">Andrew Hayes</a> at Southbank Centre.
+
 
 ##Open Event CMS
 Open Event is a foundation for any cultural organisation who would like to manage and publish their events on-line. It models the events into an Open Event Data Model and automatically publishes them via a JSON API.
@@ -27,4 +23,3 @@ Open Event is a foundation for any cultural organisation who would like to manag
 ###Get involved
  - [Website](https://www.drupal.org/project/openevent)
  - [GitHub](https://github.com/Southbank-Centre/OpenEvent)
- - Email

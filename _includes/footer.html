@@ -1,3 +1,4 @@
+{% comment %}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -7,26 +8,28 @@
         </div>
     </div>
 </div>
+{% endcomment %}
 
 <footer class="footer panel-footer">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <a href="http://www.southbankcentre.co.uk/"><img class="logo-sb footer-image" src="{{ site.baseurl }}/images/logo-southbank.jpg" /></a>
-                <p class="text-footer">SOUTHBANK CENTRE<br>
+                <a href="http://www.southbankcentre.co.uk/"><img class="logo-southbankcentre footer-image" src="{{ site.baseurl }}/images/logo-southbankcentre.svg" /></a>
+                <p class="text-footer">Southbank Centre<br>
                     Belvedere Road,<br>
                     London<br>
                     SE1 8XX<br>
                     United Kingdom</p>
             </div>
             <div class="col-md-4">
-                <a href="http://www.barbican.org.uk/"><img class="logo-barbican footer-image" src="{{ site.baseurl }}/images/barbican-logo.gif" /></a>
-                <p class="text-footer">BARBICAN CENTRE<br>
-                    Silk Street ,<br>
+                <a href="http://www.barbican.org.uk/"><img class="logo-barbican footer-image" src="{{ site.baseurl }}/images/logo-barbican.svg" /></a>
+                <p class="text-footer">Barbican Centre<br>
+                    Silk Street<br>
                     London<br>
                     EC2Y 8DS<br>
                     United Kingdom </p>
             </div>
+            {% comment %}
             <div class="col-md-4">
                 <ul class="ul-footer">
                     {% for post in site.posts limit:3 %}
@@ -39,6 +42,7 @@
                     {% endfor %}
                 </ul>
             </div>
+            {% endcomment %}
         </div>
         <div class="row">
             <div class="col-md-12">
